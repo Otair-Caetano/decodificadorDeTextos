@@ -8,5 +8,9 @@ Esse projeto foi desenvolvido Otair Caetano da Silva, aluno da alura, como um Ch
 ## Instruções de uso
 Basta o usuário acessar a página, digitar o texto em letras menusculas, clicar no botão criptografar, para que o texto seja codificado. Para descriptografar,
 basta clicar no botão copiar, que irá aparecer abaixo do texto encriptado, e apertar o botão descriptografar.
-![alt telas do projeto]("C:\Users\otair\OneDrive\Desktop\imagens\imagensGithub\telaInicialDecodificador.png")
+## Créditos
+[Alura](https://www.alura.com.br)
+[freepik](https://br.freepik.com/fotos-vetores-gratis/backgrounds)
+
+
 
