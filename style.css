@@ -1,0 +1,290 @@
+ * {
+    position: relative;/*Define a ordem de visualização dentro da página, este elemento será o */
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+    object-fit: cover;
+}
+ 
+body {
+
+    background-image: url(Imagens/fundoMatrix4.jpg);
+    background-repeat: no-repeat;/* Evita que a imagem de fundo se repita */
+    background-size: cover;/* Ajusta a imagem para cobrir todo o fundo */
+
+}
+
+.logo__enigma {
+    margin-left: 10px;
+    padding-top: 10px;
+    width: 5%;
+}
+
+.container__main {
+    display: flex;
+    margin-bottom: 50px;
+    margin-left: 80px;
+}
+
+.text-area {
+    border: none;
+    color: rgb(20, 252, 12);
+    margin-top:90px;
+    text-transform: lowercase;
+    
+    
+    
+
+}
+
+::placeholder {
+    color: rgb(20, 252, 12)
+}
+.text-area:focus {
+        outline: none;
+}
+
+.mensagem {    
+    background: rgb(20, 252, 12);
+    background-image: url(imagens/Enigma-Maquina-Nazi.png);
+    background-repeat: no-repeat;
+    background-position: center;/*Define a posição da imagem em relação ao elemento .mensagem*/
+    width: 400px;/*Aumenta ou diminue a largura do guandro mensagem*/
+    height: 944px;/*Aumenta ou diminue a altura do guandro mensagem*/
+    border: none;
+    border-radius: 24px;
+    margin-left: 98px;
+    margin-top: 20px;
+    padding-left: 20px;
+    position: absolute;
+    opacity: 0.5;
+}
+
+
+.mensagem:focus {
+    outline: none;
+}
+
+.botoes {
+    display: flex;
+    margin-top: 18px;
+}
+
+.btn-desencriptar {
+    background: white;
+    border: 1px solid rgb(20, 252, 12);
+    border-radius: 24px;
+    font-size: 16px;
+    font-weight: 400;
+    color: rgb(20, 252, 12);
+    cursor: pointer;
+    width: 328px;/*Tamanho do botão*/
+    height: 67px;/*Altura do botão*/
+    margin-left: 30px;/*Espaçamento entre os botõe*/
+    position: relative;
+    margin-top: 400px;/*Define a altura do botão em relação a pagina do navegadr*/
+    margin: left 1000px;/*Define a posição do botão em relação a pagina do navegadr*/
+    
+}
+
+.btn-encriptar {
+    background-color: rgb(20, 252, 12);
+    border: 1px solid rgb(20, 252, 12);
+    border-radius: 24px;
+    font-size: 16px;
+    font-weight: 400;
+    color:white;
+    cursor: pointer;
+    width: 328px;/*Tamanho do botão*/
+    height: 67px;/*Altura do botão*/
+    margin-left: 30px;/*Espaçamento entre os botõe*/
+    position: relative;
+    margin-top: 400px;/*Define a altura do botão em relação a pagina do navegadr*/
+    margin: left 1000px;/*Define a posição do botão em relação a pagina do navegadr*/
+     
+}
+ 
+
+.logo__enigma {
+    margin-left: 10px;
+    padding-top: 10px;
+    width: 5%;
+}
+
+.container__main {
+    display: flex;
+    margin-bottom: 50px;
+    margin-left: 80px;
+}
+
+.text-area {
+    border: none;
+    color: rgb(20, 252, 12);
+    margin-top:90px;
+    text-transform: lowercase;
+    
+    
+    
+
+}
+
+::placeholder {
+    color: rgb(20, 252, 12)
+}
+.text-area:focus {
+        outline: none;
+}
+
+.mensagem {    
+    background: rgb(20, 252, 12);
+    background-repeat: no-repeat;
+    background-position: center;/*Define a posição da imagem em relação ao elemento .mensagem*/
+    width: 400px;/*Aumenta ou diminue a largura do guandro mensagem*/
+    height: 944px;/*Aumenta ou diminue a altura do guadro mensagem*/
+    border: none;
+    border-radius: 24px;
+    margin-left: 98px;
+    margin-top: px;
+    padding-left: 30px;
+    position: absolute;
+    
+}
+
+.enigmaMaquinaNazi {
+    top: 400px;
+    left: 140px;
+}
+
+.mensagem:focus {
+    outline: none;
+}
+
+.botoes {
+    display: flex;
+    margin-top: 18px;
+}
+
+.btn-desencriptar {
+    background: white;
+    border: 1px solid rgb(20, 252, 12);
+    border-radius: 24px;
+    font-size: 16px;
+    font-weight: 400;
+    color: rgb(20, 252, 12);
+    cursor: pointer;
+    width: 328px;/*Tamanho do botão*/
+    height: 67px;/*Altura do botão*/
+    margin-left: 30px;/*Espaçamento entre os botõe*/
+    
+}
+
+.btn-encriptar {
+    background-color: rgb(20, 252, 12);
+    border: 1px solid rgb(20, 252, 12);
+    border-radius: 24px;
+    font-size: 16px;
+    font-weight: 400;
+    color:white;
+    cursor: pointer;
+    width: 328px;/*Tamanho do botão*/
+    height: 67px;/*Altura do botão*/
+    margin-left: 30px;/*Espaçamento entre os botõe*/
+    
+   
+}
+
+.btn-mensagem {
+    position: relative;
+    border: 5px solid black;/*Define a espessura da borda do botão*/
+    color: rgb(20, 252, 12);
+    cursor: pointer;
+    height: 122px;
+    width: 10px;
+    margin-left: 110px;/*Muda o linhamento do texto em relação ao quandro que ele está inserido*/
+    margin-top: 0px;/*Muda a altura em relaçãoa ao elemento ao qual está centralizado*/ 
+    top: 33px;
+    left: 5px;
+}
+.btn-copiar {
+    border:5px solid #0cef22;
+    border-radius: 24px;
+    color: rgb(20, 252, 12);
+    cursor: pointer;
+    height: 67px;
+    margin-left: 150px;/*Muda o linhamento do texto em relação ao quandro que ele está inserido*/
+    margin-top: 720px;/*Muda a altura em relaçãoa ao elemento ao qual está centralizado*/ 
+    position: absolute;
+    width: 336px;
+}
+
+
+.mensagem-cima {
+    font-size: 24px;
+    font-weight: 700;
+    text-align: center;/*Centraliza o texto dentro do botão*/
+    top: 650px;
+     left: 120px;
+    
+}
+
+.mensagem-baixo {
+    font-size: 16px;
+    font-weight: 400; 
+    display: flex;/*Centraliza o texto dentro do botão, porém embaixo do texto acima*/
+    top: 680px;
+    left: 100px;
+
+}
+
+
+.informacao {
+    color: rgb(20, 252, 12);
+    font-size: 12px;
+    position: absolute; 
+    top: 630px;
+    left: 30px;
+    z-index: 10px;
+} 
+
+    
+
+.btn-mensagem {
+    background-image: url(../imagens/fundoMatrix4.jpg);
+    position: absolute;
+    border: 5px solid black;/*Define a espessura da borda do botão*/
+    color: rgb(20, 252, 12);
+    cursor: pointer;
+    width: 400px;
+    height: 122px;
+    margin-left: 110px;/*Muda o linhamento do texto em relação quandro que ele está inserido*/
+    margin-top: 650px;/*Muda a altura em relaçãoa ao elemento ao qual está centralizado*/ 
+    
+    
+    
+}
+
+.mensagem-cima {
+    text-align: center;/*Centraliza o texto dentro do botão*/
+    font-size: 24px;
+    font-weight: 700;
+    display: block;
+    top: 0px;
+    left: 0px;
+    
+
+     
+    
+}
+
+.mensagem-baixo {
+    text-align: center;/*Centraliza o texto dentro do botão*/
+    font-size: 16px;
+    font-weight: 400; 
+    display: block;/*Centraliza o texto dentro do botão, porém embaixo do texto acima*/
+    top: 0px;
+    left: 0px;
+     
+}
+
+

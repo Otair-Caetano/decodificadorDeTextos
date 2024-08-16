@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador - by Otair</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="imagens/letraE3.png">
+    <title>Encriptador</title>
+ 
+</head>
+<body>
+    
+    <header> <!--Tag header é cabeçalho da página-->
+        <img id="logoEnigma" class="logo__enigma" src="../imagens/letraE3.png" alt="Logo Enigma">
+    </header>
+    <main class="container__main">
+        
+        <section> 
+            <textarea id="textarea" class="text-area" cols="41" rows="4" placeholder="Digite aqui seu texto"></textarea>
+            
+            <div class="informacao">
+                <p>&#x26A0; Apenas letras minúscula e sem acento.</p>
+            </div>
+            
+            <div class="botoes">
+                <button id="btnEncriptar" onclick="btnEncriptar()" class="btn-encriptar">Criptografar</button>
+                <button id="btnDesencriptar" onclick="btnDesencriptar()" class="btn-desencriptar">Descriptografar</button>
+            </div>
+
+        </section>
+
+        <section>
+            <textarea id="mensagem" class="mensagem" cols="20" rows="10"></textarea>
+            <div>
+                <img class="enigmaMaquinaNazi" src="/imagens/Enigma-Maquina-Nazi.png" id="enigmaMaquinaNazi">
+            </div>
+            <button id="btn-copiar" class="btn-copiar" style="display: none;">Copiar</button>
+            <button id="btnMensagem" class="btn-mensagem">
+                <span class="mensagem-cima">Nenhuma mensagem <br> encontrada</span>
+                <span class="mensagem-baixo">Digite um texto que você deseja <br> criptografar ou descriptografar.</span>
+            </button>
+            
+        </section>
+    
+    </main>
+    <script src="script.js"></script>   
+
+</body>
+</html>
